@@ -1,7 +1,7 @@
 <template>
     <div>
+        <Header />
       <HeroSection />
-  
       <div class="container mx-auto py-16 px-6 text-center">
         <h2 class="text-3xl font-bold text-gray-800">
           Explora Nuestra Colección
@@ -18,6 +18,7 @@
   
   <script setup>
   // Aquí solo le dices a Vue qué "bloques" vas a usar
+  import Header from '@/views/Header.vue';
   import HeroSection from '@/views/HeroSection.vue';
   import Footer from '@/views/Footer.vue';
   </script>
