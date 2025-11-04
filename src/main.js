@@ -11,6 +11,6 @@ const app = createApp(App);
 
 app.use(createPinia());
 app.use(router);
-app.use(Toast); // No se necesitan opciones especiales para esto
+app.use(Toast); 
 
 app.mount('#app');

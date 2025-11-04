@@ -7,13 +7,9 @@ module.exports = {
   darkMode: 'class',
   theme: {
     extend: {
-      // === ✨ SE AÑADIÓ LA FUENTE LOBSTER AQUÍ ✨ ===
       fontFamily: {
         lobster: ['Lobster', 'cursive'],
       },
-      // ===============================================
-
-      // Tus colores personalizados se mantienen intactos
       colors: {
         brand: {
           primary: '#d7037b',
@@ -39,7 +35,6 @@ module.exports = {
         },
       },
       keyframes: {
-        // --- TUS KEYFRAMES EXISTENTES ---
         'fade-in-up': {
           '0%': { opacity: '0', transform: 'translateY(20px)' },
           '100%': { opacity: '1', transform: 'translateY(0)' },
@@ -63,8 +58,6 @@ module.exports = {
           '66%': { transform: 'translate(-20px, 20px) scale(0.9)' },
           '100%': { transform: 'translate(0px, 0px) scale(1)' },
         },
-        
-        // --- ✨ KEYFRAMES AÑADIDOS DE LA ÚLTIMA MEJORA ---
         'enter-from-bottom': {
           'from': { opacity: '0', transform: 'translateY(20px)' },
           'to': { opacity: '1', transform: 'translateY(0)' },
@@ -83,14 +76,12 @@ module.exports = {
         }
       },
       animation: {
-        // --- TUS ANIMACIONES EXISTENTES ---
         'fade-in-up': 'fade-in-up 0.8s ease-out forwards',
         'fade-in-down': 'fade-in-down 0.8s ease-out forwards',
         'pop-in': 'pop-in 0.3s ease-out forwards',
         pulse: 'pulse 1.8s cubic-bezier(0.4, 0, 0.6, 1) infinite',
         'blob-slow': 'blob 10s infinite',
 
-        // --- ✨ ANIMACIONES AÑADIDAS DE LA ÚLTIMA MEJORA ---
         'gradient-anim': 'gradient-anim 3s ease-in-out infinite',
         'shoot': 'shoot 8s ease-in-out infinite',
       },
