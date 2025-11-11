@@ -51,18 +51,20 @@
         N° Libros Encontrados (4)
       </h2>
       
-      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6">
+      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6"> 
         
         <router-link to="/market/1" class="bg-white rounded-lg shadow-lg overflow-hidden transition-transform hover:scale-105 flex flex-col">
           <img src="/img/kant.png" alt="Critica de la razon pura" class="w-full h-72 object-contain p-4 bg-gray-50 flex-shrink-0" />
-          <div class="p-4 flex flex-col flex-grow justify-between">
-            <div class="text-left mb-4">
-              <h3 class="text-md font-semibold text-gray-800">Crítica de la razón pura</h3>
-              <p class="text-sm text-gray-600">Immanuel Kant</p>
+          
+          <div class="p-4 flex flex-row justify-between items-center">
+            
+            <div class="text-left flex-1 min-w-0"> <h3 class="text-md font-semibold text-gray-800 truncate">Crítica de la razón pura</h3> 
+              <p class="text-sm text-gray-600 truncate">Immanuel Kant</p>
             </div>
-            <div class="text-right">
-              <span class="inline-block bg-[#4626D0] text-white text-xs font-semibold px-2 py-2 rounded-md whitespace-nowrap">
-                Disponibles: 6
+            
+            <div class="flex-shrink-0 ml-2"> 
+              <span class_comment="Padding ajustado a px-3 py-1" class="inline-block bg-[#4626D0] text-white text-xs font-semibold px-3 py-1 rounded-md whitespace-nowrap"> 
+                Dis: 6
               </span>
             </div>
           </div>
@@ -70,14 +72,14 @@
 
         <router-link to="/market/1" class="bg-white rounded-lg shadow-lg overflow-hidden transition-transform hover:scale-105 flex flex-col">
           <img src="/img/darwin.png" alt="El origen de las especies" class="w-full h-72 object-contain p-4 bg-gray-50 flex-shrink-0" />
-          <div class="p-4 flex flex-col flex-grow justify-between">
-            <div class="text-left mb-4">
-              <h3 class="text-md font-semibold text-gray-800">El origen de las especies</h3>
-              <p class="text-sm text-gray-600">Charles Darwin</p>
+          <div class="p-4 flex flex-row justify-between items-center">
+            <div class="text-left flex-1 min-w-0">
+              <h3 class="text-md font-semibold text-gray-800 truncate">El origen de las especies</h3>
+              <p class="text-sm text-gray-600 truncate">Charles Darwin</p>
             </div>
-            <div class="text-right">
-              <span class="inline-block bg-[#4626D0] text-white text-xs font-semibold px-2 py-2 rounded-md whitespace-nowrap">
-                Disponibles: 3
+            <div class="flex-shrink-0 ml-2">
+              <span class="inline-block bg-[#4626D0] text-white text-xs font-semibold px-3 py-1 rounded-md whitespace-nowrap">
+                Dis: 3
               </span>
             </div>
           </div>
@@ -85,14 +87,14 @@
 
         <router-link to="/market/1" class="bg-white rounded-lg shadow-lg overflow-hidden transition-transform hover:scale-105 flex flex-col">
           <img src="/img/weber.png" alt="Economia y sociedad" class="w-full h-72 object-contain p-4 bg-gray-50 flex-shrink-0" />
-          <div class="p-4 flex flex-col flex-grow justify-between">
-            <div class="text-left mb-4">
-              <h3 class="text-md font-semibold text-gray-800">Economía y sociedad...</h3>
-              <p class="text-sm text-gray-600">Max Weber</p>
+          <div class="p-4 flex flex-row justify-between items-center">
+            <div class="text-left flex-1 min-w-0">
+              <h3 class="text-md font-semibold text-gray-800 truncate">Economía y sociedad...</h3>
+              <p class="text-sm text-gray-600 truncate">Max Weber</p>
             </div>
-            <div class="text-right">
-              <span class="inline-block bg-[#4626D0] text-white text-xs font-semibold px-2 py-2 rounded-md whitespace-nowrap">
-                Disponibles: 10
+            <div class="flex-shrink-0 ml-2">
+              <span class="inline-block bg-[#4626D0] text-white text-xs font-semibold px-3 py-1 rounded-md whitespace-nowrap">
+                Dis: 10
               </span>
             </div>
           </div>
@@ -100,14 +102,14 @@
 
         <router-link to="/market/1" class="bg-white rounded-lg shadow-lg overflow-hidden transition-transform hover:scale-105 flex flex-col">
           <img src="/img/diamond.png" alt="Armas, germenes y acero" class="w-full h-72 object-contain p-4 bg-gray-50 flex-shrink-0" />
-          <div class="p-4 flex flex-col flex-grow justify-between">
-            <div class="text-left mb-4">
-              <h3 class="text-md font-semibold text-gray-800">Armas, gérmenes y acero...</h3>
-              <p class="text-sm text-gray-600">Jared Diamond</p>
+          <div class="p-4 flex flex-row justify-between items-center">
+            <div class="text-left flex-1 min-w-0">
+              <h3 class="text-md font-semibold text-gray-800 truncate">Armas, gérmenes y acero...</h3>
+              <p class="text-sm text-gray-600 truncate">Jared Diamond</p>
             </div>
-            <div class="text-right">
-              <span class="inline-block bg-[#4626D0] text-white text-xs font-semibold px-2 py-2 rounded-md whitespace-nowrap">
-                Disponibles: 8
+            <div class="flex-shrink-0 ml-2">
+              <span class="inline-block bg-[#4626D0] text-white text-xs font-semibold px-3 py-1 rounded-md whitespace-nowrap">
+                Dis: 8
               </span>
             </div>
           </div>

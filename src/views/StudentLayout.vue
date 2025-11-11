@@ -45,6 +45,9 @@
           <ArrowDownTrayIcon class="h-6 w-6" />
         </router-link>
 
+        </nav>
+
+      <div class="mt-auto">
         <router-link
           to="/perfil"
           class="p-3 rounded-lg hover:bg-[#4626D0] hover:text-white transition-colors"
@@ -52,9 +55,8 @@
         >
           <UserIcon class="h-6 w-6" />
         </router-link>
-      </nav>
+      </div>
 
-      <div class="mt-auto"></div>
     </aside>
 
     <div class="flex-1 flex flex-col overflow-hidden">
@@ -85,7 +87,6 @@
 </template>
 
 <script setup>
-// Importamos todos los íconos necesarios para el layout
 import {
   AcademicCapIcon,
   ChevronRightIcon,
